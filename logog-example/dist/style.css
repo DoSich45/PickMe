@@ -11,13 +11,13 @@ body {
   height: 200px;
   position: relative;
 }
-.logo svg,
+.logo img,
 .logo div {
   width: 200px;
   height: 200px;
   position: absolute;
 }
-.logo svg {
+.logo img {
   fill: #fff;
 }
 .logo div {
