@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", async function(){
     await loadComponent('../components/header.html', '.header')
 
@@ -134,4 +135,8 @@ divSelers.innerHTML += card
 )
 
 
+=======
+document.addEventListener("DOMContentLoaded", function(){
+    loadComponent("../components/header.html", ".header")
+>>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 })
