@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "selers": 
     {
@@ -66,3 +67,24 @@
     }
 
 }
+=======
+
+{ 
+    "sellers":[
+        {   "Nikita":{
+    "img":"..1.jpg",
+    "name": "smartphones",
+    "about":"Я Нікіта мені 15 років, я продаю телефони ",
+    "seller": "Nikita"
+    }},
+    {   "Nikita":{
+    "img":"..1.jpg",
+    "name": "smartphones",
+    "about":"Я Нікіта мені 15 років, я продаю телефони ",
+    "seller": "Nikita"
+    }}
+
+    ]}
+
+
+>>>>>>> ff54e5051b4e7e69fc67e6bf904daafe93041d85

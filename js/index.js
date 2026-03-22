@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", async function(){
     await loadComponent('../components/header.html', '.header')
     await loadComponent('../components/footer.html','.footer')
@@ -106,6 +107,7 @@ document.addEventListener("DOMContentLoaded", async function(){
     
     init();
 
+<<<<<<< HEAD
     //add card selers//
     let divSelers = document.querySelector(".selers")
     let selers = await loadData("../data/selers.json")
@@ -140,3 +142,39 @@ document.addEventListener("click", function (e) {
     window.location.href = "seler.html";
   }
 });
+=======
+  // add card selers
+  let selers = await loadData("../data/selers.json")
+  console.log(selers)
+  selers = selers["sellers"]
+  console.log(selers)
+  selers.forEach(function(seler){
+    console.log(seler)
+      let name = Object.keys(seler)[0]
+  let data = seler[name]
+    let card = ` <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="${data['img']}" alt="Product Image" />
+        <h3>${data['name']}</h3>
+         <h3>${name}</h3>
+      </div>
+      <div class="flip-card-back">
+        <p>${data['about']}</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </div>`
+divSelers.innerHTML += card
+
+
+  }
+)
+
+
+=======
+document.addEventListener("DOMContentLoaded", function(){
+    loadComponent("../components/header.html", ".header")
+>>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
+})
+>>>>>>> ff54e5051b4e7e69fc67e6bf904daafe93041d85

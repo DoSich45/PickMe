@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 async function loadComponent(name_file, name_sel){
     let component = await fetch(name_file)
     let div_cont = document.querySelector(name_sel)
@@ -16,3 +17,13 @@ function choice(arr) {
   }
   return arr[Math.floor(Math.random() * arr.length)];
 }
+=======
+async function loadComponent(name_file,name_sel){
+let component = await fetch (name_file)
+let div_cont = document.querySelector(name_sel)
+div_cont.innerHTML = await component.text()
+
+
+}
+    
+>>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
