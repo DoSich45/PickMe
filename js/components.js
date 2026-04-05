@@ -87,3 +87,17 @@ function show_product(product){
 function dealmake(){
   window.location.href = "order.html"
 }
+
+const observer  = new IntersectionObserver(elements => {
+  elements.forEach(el => {
+    if(el.isIntersecting){
+      el.target.classList.add("observer-show")
+      observer.unobserve(el.target)
+    }
+  }) , {
+    threshold: 0.9
+  }
+}) 
+document.querySelectorAll(".observer-hide").forEach(el => {observer.observe(el)
+
+})
