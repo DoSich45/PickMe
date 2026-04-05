@@ -1,15 +1,8 @@
 <style>
     /* logo img */
-<<<<<<< HEAD
     .logo {
   width: 100px;
   height: 100px;
-=======
-    
-    .logo {
-  width: 200px;
-  height: 200px;
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
   position: relative;
   display: flex;
   align-items: center;
@@ -79,7 +72,6 @@
     transform: rotate(315deg);
   }
 }
-<<<<<<< HEAD
     /* logo text */
 .bounce{
   display: flex;
@@ -88,16 +80,6 @@
   width: 20%;
   height: 100%;
   font: normal bold 4rem "Product Sans", sans-serif;
-=======
-/* logo txt */
-.bounce {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30%;
-  height: 100%;
-  font: normal bold 6rem "Product Sans", sans-serif;
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
   white-space: nowrap;
 }
 
@@ -108,65 +90,37 @@
   transform: translate3d(0, 0, 0);
   margin-top: 0.5em;
   text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
-<<<<<<< HEAD
   font: normal bold 4rem "Product Sans", sans-serif;
-=======
-  font: normal bold 6rem "Product Sans", sans-serif;
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 .letter:nth-child(1) {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
-<<<<<<< HEAD
   color: var(--purple);
-=======
-  color: var(--purpul) ;
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 .letter:nth-child(2) {
   -webkit-animation-delay: 0.0833333333s;
           animation-delay: 0.0833333333s;
-<<<<<<< HEAD
   color: var(--violet);
-=======
-  color: var(--vilet);
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 .letter:nth-child(3) {
   -webkit-animation-delay: 0.1666666667s;
           animation-delay: 0.1666666667s;
-<<<<<<< HEAD
   color: var(--pink2);
-=======
-  color: var(--purpul2);
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 .letter:nth-child(4) {
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
-<<<<<<< HEAD
   color: var(--pink3);
-=======
-  color: var(--vilet2);
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 .letter:nth-child(5) {
   -webkit-animation-delay: 0.3333333333s;
           animation-delay: 0.3333333333s;
-<<<<<<< HEAD
   color: var(--white);
-=======
-  color: #ac1bc9;
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 .letter:nth-child(6) {
   -webkit-animation-delay: 0.4166666667s;
           animation-delay: 0.4166666667s;
-<<<<<<< HEAD
   color: var(--violet2);
-=======
-  color: #ea4335;
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
 }
 
 @-webkit-keyframes bounce {
@@ -191,7 +145,6 @@
   }
 }
 /* input */
-<<<<<<< HEAD
 .div_search {
   display: flex;
   width: 40%;
@@ -231,7 +184,7 @@
   <div></div>
   <div></div>
   <div></div>
-<img src ="../src/logo-removebg-preview.png">
+<a href="index.html" style="position: absolute; top: 8px; left: 0;"><img src ="../src/logo-removebg-preview.png"></a>
 </div>
 
 <div class="bounce">
@@ -243,70 +196,14 @@
     <span class="letter">E</span>
 </div>
 <div class="div_search">
-<input type="text" class = "search" placeholder="Шукай товар, продавця...">
+<input type="text" class = "search" placeholder="Шукай товар, продавця..." onkeydown="search(event)">
 <img src="../src/search.svg" class="search-icon">
 </div>
 <div class="button-wrap">
-  <button id "add-to-card">
-    <span>Generate
+  <button id="btn-cart" onclick="opencart()">
+    <span>Кошик
     <img src="../src/shopping-cart.svg" alt="">
     </span>
   </button>
   <div class="button-shadow"></div>
 </div>
-=======
-.div_search{
-    display: flex;
-
-}
-.sereach{
-    height: 40px;
-    width:30%;
-    background-image: linear-gradient(to right, var(--purple),
-                                          var(--purple2),
-                                          var(--violet), 
-                                          var(--violet2));
-    border-radius:30px;
-    box-shadow:3px 3px 3px 0 rgba(0, 0, 0, 1);
-    pading: 5px;
-    border: none;
-}
-.div_search img{
-    width: 50px;
-    height: 50px;
-    filter: invert();
-    background-color: var();
-.div_search{
-    display: flex;
-    width: 40%;
-    align-items: center;
-
-}
-}
-</style>
-<div class="logo">
-  <div></div>
-  <div></div>
-  <div></div>
-<img src="../src/logo-removebg-preview.png" >
-<div class="bounce">
-    <span class="letter">P</span>
-    <span class="letter">i</span>
-    <span class="letter">c</span>
-    <span class="letter">k</span>
-    <span class="letter">m</span>
-    <span class="letter">e</span>
-
-</div>
-<div>
-<input type = "text" class=" sereach" placeholder="Шукай товар,продавця">
-<img src = "../src/search.svg">
-</div>
-<!-- Button -->
-<div class="button-wrap">
-  <button>
-    <span>Generate</span>
-  </button>
-  <div class="button-shadow"></div>
-</div>
->>>>>>> 6a73e04265d0678755b0b5abc65a6a9560e2a293
